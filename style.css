@@ -54,7 +54,7 @@ h1{
   font-size: 50px;
 }
 
-p {
+.para{
   font-size: 20px;
   width: 50%;
   text-align: center;
@@ -79,6 +79,129 @@ p {
   border-radius: 15px;
   padding: 5px 20px;
   background-color: yellowgreen;
+  color: black;
+  border-style: none;
+}
+
+.body{
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.container{
+  margin-top: 100px;
+}
+
+.small-line{
+  border: none;
+  height: 4px;          
+  background-color: #007bff; 
+  width: 80px;            
+  margin: 20px 580px;        
+  border-radius: 2px;
+  
+}
+
+h1{
+  text-align: center;
+}
+
+.first-para{
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.second-para{
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.icon-line{
+  max-width: 1240px;
+  margin: 200px auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-paper-plane {
+  color: rgb(67, 67, 229);
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.fa-crown{
+  color: rgb(67, 67, 229);
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.fa-bullseye{
+  color: rgb(67, 67, 229);
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.first-icon{
+  width: 300px;
+  background: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgb(168, 166, 166);
+  padding: 25px;
+}
+
+.second-icon{
+   width: 300px;
+  background: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgb(168, 166, 166);
+  padding: 25px;
+}
+
+.third-icon{
+   width: 300px;
+  background: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgb(168, 166, 166);
+  padding: 25px;
+}
+
+h3{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-size: 20px;
+  color: rgb(87, 83, 83);
+}
+
+.vedio-line{
+  max-width: 1240px;
+  margin: 200px auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+h2{
+  font-size: 40px;
+  text-align: center;
+}
+
+.third-button{
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 15px 30px;
+  background-color: rgb(65, 65, 234);
   color: black;
   border-style: none;
 }
