@@ -553,37 +553,39 @@ footer {
   list-style: none;
 }
 
-.footer-content .foot-childone h2{
+.footer-content .foot-childone h2 {
   color: white;
   line-height: 2;
 }
 
-.big-line{
+.big-line {
   width: 1240px;
   margin-top: 50px;
 }
 
-.icon-content{
+.icon-content {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-.icon-section{
+.icon-section {
   display: flex;
   gap: 10px;
 }
 
-.icon-content .icon-section p{
+.icon-content .icon-section p {
   color: rgb(226, 211, 211);
   border-radius: 50%;
+  padding: 10px;
+  text-align: center;
 }
 
-.icon-content h4{
+.icon-content h4 {
   color: white;
 }
 
-.icon-content div h4 span{
+.icon-content div h4 span {
   color: rgb(49, 49, 196);
   font-weight: lighter;
 }
