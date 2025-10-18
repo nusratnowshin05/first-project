@@ -449,9 +449,9 @@ h2 {
   height: 530px;
   background: white;
   border: 1px solid white;
-  box-shadow: -11px 7px 5px -1px rgba(194, 192, 192, 0.65);
-  -webkit-box-shadow: -11px 7px 5px -1px rgba(194, 192, 192, 0.65);
-  -moz-box-shadow: -11px 7px 5px -1px rgba(194, 192, 192, 0.65);
+  box-shadow: -11px 7px 5px -1px rgba(236, 230, 230, 0.808);
+  -webkit-box-shadow: -11px 7px 5px -1px rgba(247, 240, 240, 0.884);
+  -moz-box-shadow: -11px 7px 5px -1px rgba(235, 228, 228, 0.815);
   padding: 25px;
 }
 
@@ -459,15 +459,15 @@ h2 {
   width: 350px;
   background: rgb(255, 255, 255);
   border: 1px solid white;
-  box-shadow: 17px 3px 16px -2px rgba(145, 127, 127, 0.13) inset;
+  box-shadow: 17px 3px 16px -2px rgba(145, 127, 127, 0.13);
   -webkit-box-shadow: 17px 3px 16px -2px rgba(145, 127, 127, 0.13) inset;
-  -moz-box-shadow: 17px 3px 16px -2px rgba(145, 127, 127, 0.13) inset;
+  -moz-box-shadow: 17px 3px 16px -2px rgba(145, 127, 127, 0.13);
   padding: 25px;
 }
 
 .blog {
   width: 100%;
-  min-height: 700px;
+  min-height: 800px;
   background-color: white;
 }
 
@@ -519,4 +519,71 @@ h2 {
 .profile .profile-image img {
   width: 100%;
   border-radius: 50%;
+}
+
+footer {
+  width: 100%;
+  min-height: 400px;
+  background-color: black;
+}
+
+.footer-inner-section {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  padding-top: 60px;
+}
+
+.footer-content .foot-child ul li span {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-content ul li {
+  color: gray;
+  font-size: 18px;
+  line-height: 2;
+  list-style: none;
+}
+
+.footer-content .foot-childone h2{
+  color: white;
+  line-height: 2;
+}
+
+.big-line{
+  width: 1240px;
+  margin-top: 50px;
+}
+
+.icon-content{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.icon-section{
+  display: flex;
+  gap: 10px;
+}
+
+.icon-content .icon-section p{
+  color: rgb(226, 211, 211);
+  border-radius: 50%;
+}
+
+.icon-content h4{
+  color: white;
+}
+
+.icon-content div h4 span{
+  color: rgb(49, 49, 196);
+  font-weight: lighter;
 }
